@@ -1,27 +1,27 @@
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/EditableNotifs/refs/heads/main/source"))()
-local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/REF829/EditableHydra/refs/heads/main/source'))()
-local Window = UILib.new("JAB (just a baseplate)", game.Players.LocalPlayer.Name, "glad to see you.")
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/EditableNotifs/refs/heads/main/source"))()adfg
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/EditableHydra/refs/heads/main/source"))()
+local Window = UILib.new("JAB (just a baseplate)", game.Players.LocalPlayer.Name, "glad to see you.")adfgafdgadfgf
 local Category1 = Window:Category("Main", "http://www.roblox.com/asset/?id=8395621517")
 local SubButton1 = Category1:Button("Hatless", "http://www.roblox.com/asset/?id=8395747586")
 local SubButton2 = Category1:Button("Hats", "http://www.roblox.com/asset/?id=8395747586")
-local SubButton3 = Category1:Button("Settings", "http://www.roblox.com/asset/?id=8395747586")
+local SubButton3 = Category1:Button("Settings", "http://www.roblox.com/asset/?id=8395747586")gfdagadgfdag
 local Section1 = SubButton1:Section("Section", "Left")
 local Section2 = SubButton2:Section("Section", "Left")
 local Section3 = SubButton3:Section("Section", "Left")
 NotificationLibrary:SendNotification("Success", "enjoy V9 i worked my ahh off", 3)
-Section1:Button({
+Section1:Button({dafgadgadfgdaf
     Title = "ender FE",
     ButtonName = "ENDER",
     Description = "JAB convert",
-    }, function()
+    }, function()aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasad
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/MyGalatekScripts/refs/heads/main/enderV2"))()
 end)
 Section1:Button({
     Title = "gale fighter FE",
     ButtonName = "GALE FIGHTER",
-    Description = "JAB convert",
-    }, function()
+    Description = "JAB convert",googoogaga
+    }, function()gaga
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/MyGalatekScripts/refs/heads/main/galefighterV2"))()
 end)
@@ -43,14 +43,14 @@ Section1:Button({
 end)
 Section2:Button({
     Title = "goner FE",
-    ButtonName = "GONER",
+    ButtonName = "GONER",sadfasfasfd
     Description = "JAB convert",
     }, function()
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/MyGalatekScripts/refs/heads/main/gonerV4"))()
 end)
 Section2:Button({
-    Title = "neptunian v FE",
+    Title = "neptunian v FE",sadf
     ButtonName = "NEPTUNIAN V",
     Description = "JAB convert",
     }, function()
