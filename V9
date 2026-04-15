@@ -1,5 +1,5 @@
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/EditableNotifs/refs/heads/main/source"))()
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/EditableHydra/refs/heads/main/source"))()
+local UILib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/EditableHydra/refs/heads/main/source"))()
 local Window = UILib.new("JAB (just a baseplate)", game.Players.LocalPlayer.Name, "glad to see you.")
 local Category1 = Window:Category("Main", "http://www.roblox.com/asset/?id=8395621517")
 local SubButton1 = Category1:Button("Hatless", "http://www.roblox.com/asset/?id=8395747586")
