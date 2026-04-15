@@ -21,7 +21,7 @@ Section1:Button({
     Title = "gale fighter FE",
     ButtonName = "GALE FIGHTER",
     Description = "JAB convert",
-    }, function()gaga
+    }, function()
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/MyGalatekScripts/refs/heads/main/galefighterV2"))()
 end)
