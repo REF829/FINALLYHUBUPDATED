@@ -43,7 +43,7 @@ Section1:Button({
 end)
 Section2:Button({
     Title = "goner FE",
-    ButtonName = "GONER",sadfasfasfd
+    ButtonName = "GONER",
     Description = "JAB convert",
     }, function()
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
