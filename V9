@@ -113,6 +113,14 @@ Section2:Button({
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/MyGalatekScripts/refs/heads/main/thehotlineV1"))()
 end)
+Section2:Button({
+    Title = "stop",
+    ButtonName = "STOP SCRIPT",
+    Description = "stops current script",
+    }, function()
+    NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
+    game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-rs")
+end)
 Section3:Button({
     Title = "r15",
     ButtonName = "R15",
