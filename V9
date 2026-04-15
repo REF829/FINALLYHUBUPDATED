@@ -36,7 +36,7 @@ end)
 Section1:Button({
     Title = "stop",
     ButtonName = "STOP SCRIPT",
-    Description = "stops current script",
+    Description = "stops hatless script",
     }, function()
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
     game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-rs")
@@ -116,7 +116,7 @@ end)
 Section2:Button({
     Title = "stop",
     ButtonName = "STOP SCRIPT",
-    Description = "stops current script",
+    Description = "stops hat script",
     }, function()
     NotificationLibrary:SendNotification("Success", "EXECUTED!", 3)
     game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-rs")
