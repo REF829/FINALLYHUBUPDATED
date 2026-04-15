@@ -50,7 +50,7 @@ Section2:Button({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REF829/MyGalatekScripts/refs/heads/main/gonerV4"))()
 end)
 Section2:Button({
-    Title = "neptunian v FE",sadf
+    Title = "neptunian v FE",
     ButtonName = "NEPTUNIAN V",
     Description = "JAB convert",
     }, function()
